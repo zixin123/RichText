@@ -21,7 +21,7 @@ public class SpUtils {
     private static Map<String, Long> longMap;
 
     private SpUtils() {
-        spUtils = MyApplication.getInstance().getSharedPreferences("SpUtils", Context.MODE_PRIVATE);
+        spUtils = MyApplication.getInstance().getContext().getSharedPreferences("SpUtils", Context.MODE_PRIVATE);
         intMap = new HashMap<String, Integer>();
         booleanMap = new HashMap<String, Boolean>();
         stringMap = new HashMap<String, String>();

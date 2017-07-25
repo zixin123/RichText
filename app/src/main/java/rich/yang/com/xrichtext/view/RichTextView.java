@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+import rich.yang.com.xrichtext.R;
+
 /**
  * Created by sendtion on 2016/6/24.
  * 显示富文本

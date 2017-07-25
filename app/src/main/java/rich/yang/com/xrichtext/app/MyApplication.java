@@ -18,8 +18,11 @@ public class MyApplication extends Application {
         return myApplication;
     }
 
-    private MyApplication() {
-        mContext = getApplicationContext();
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mContext = this;
     }
 
     public Context getContext() {

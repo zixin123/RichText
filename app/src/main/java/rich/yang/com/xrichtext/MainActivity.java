@@ -2,6 +2,7 @@ package rich.yang.com.xrichtext;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,5 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         button_create = (Button) findViewById(R.id.button_create);
         button_edit = (Button) findViewById(R.id.button_edit);
+
+        button_create.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArticleActivity.actionLaunch(MainActivity.this);
+            }
+        });
     }
 }

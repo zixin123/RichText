@@ -21,6 +21,8 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
+import rich.yang.com.xrichtext.R;
+
 /**
  * 可编辑富文本
  */
